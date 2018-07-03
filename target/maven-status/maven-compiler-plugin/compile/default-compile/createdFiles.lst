@@ -1,0 +1,4 @@
+service/business/Rate.class
+service/controllers/RateController.class
+service/Launcher.class
+service/repositories/RateRepository.class
