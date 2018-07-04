@@ -37,6 +37,7 @@ GET http://localhost:8001/taux-change/src/{devise}/dst/{devise}/date/yyyy-MM-dd
 ```
 PUT http://localhost:8001/taux-change/rates/{id}
 ```
+```
 {
     "id": {id},
     "src": "xxx",
