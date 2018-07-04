@@ -12,7 +12,7 @@ Run the jar file using the command
 ```
 java -jar microservice-taux.jar
 ```
-## Create a transaction
+## Create an exchange rate
 ```
 POST http://localhost:8001/taux-change/rates/
 ```
@@ -25,7 +25,7 @@ POST http://localhost:8001/taux-change/rates/
 }
 ```
 
-## Read a transaction
+## Read an exchange rate
 ```
 GET http://localhost:8001/taux-change/rates/{id}
 ```
@@ -33,7 +33,7 @@ OR
 ```
 GET http://localhost:8001/taux-change/src/{devise}/dst/{devise}/date/yyyy-MM-dd
 ```
-## Update a transaction
+## Update an exchange rate
 ```
 PUT http://localhost:8001/taux-change/rates/{id}
 ```
@@ -46,7 +46,7 @@ PUT http://localhost:8001/taux-change/rates/{id}
     "date": "yyyy-MM-dd"
 }
 ```
-## Delete a transaction
+## Delete an exchange rate
 ```
 DELETE http://localhost:8001/taux-change/rates/{id}
 ```
